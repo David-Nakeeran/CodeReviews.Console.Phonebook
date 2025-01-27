@@ -10,13 +10,13 @@ namespace PhoneBook.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-
+            throw new NotSupportedException("No changes are being made in this migration.");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-
+            throw new NotSupportedException("No changes are being reverted in this migration.");
         }
     }
 }
